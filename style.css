@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(51, 51, 49);
+    position: fixed;
+    align-items: center;
+}
+
+.navbar,.nav-brand, .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navbar * {
+    color: #fff;
+}
+
+
+.nav-brand img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navbar .nav-links  a {
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+hr {
+    width: 100%;
+}
+
+main {
+    padding: 70px 20px 20px 20px;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(233, 213, 180);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+section {
+    width: 100%;
+    height: fit-content;
+}
+
+.about {
+    display: flex;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+}
+
+.blog-container a {
+    color: #000;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(109, 106, 106);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
